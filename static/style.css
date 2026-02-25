@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f2027;
+    color: white;
+    text-align: center;
+}
+
+.hero {
+    padding: 60px;
+    background: linear-gradient(to right, #000428, #004e92);
+}
+
+section {
+    padding: 40px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    color: #00bfff;
+}
+
+input, textarea {
+    width: 250px;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    padding: 10px 20px;
+    background: #004e92;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #00bfff;
+}

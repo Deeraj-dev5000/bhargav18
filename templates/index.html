@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bhargav Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<section class="hero">
+    <h1>Hi, I'm Bhargav RB 👋</h1>
+    <h2>Python Developer | C/C++ Programmer</h2>
+</section>
+
+<section>
+    <h2>About Me</h2>
+    <p>I am skilled in C, C++, and Python.
+       I created an Online Shopping Website using HTML, CSS, and Python.</p>
+</section>
+
+<section>
+    <h2>Projects</h2>
+    <p>🛒 Online Shopping Website</p>
+</section>
+
+<section>
+    <h2>Certificates</h2>
+    <p>Web Development Certificate</p>
+    <p>Python Programming Certificate</p>
+</section>
+
+<section>
+    <h2>Contact Me</h2>
+    <form action="/submit" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required><br><br>
+        <input type="email" name="email" placeholder="Your Email" required><br><br>
+        <textarea name="message" placeholder="Your Message" required></textarea><br><br>
+        <button type="submit">Send</button>
+    </form>
+</section>
+
+</body>
+</html>
